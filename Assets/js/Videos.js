@@ -32,8 +32,11 @@ var mainApp = {};
                                 document.getElementById('cls').innerHTML += classess;
                             });
                         } else {
-                            document.getElementById('pre').src = "https://thumbs.dreamstime.com/b/available-soon-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-82695823.jpg";
+                            document.getElementById('pre').src = "/Assets/images/preloader/soon.png";
                         }
+                    })
+                    .catch(() => {
+                        document.getElementById('pre').src = "/Assets/images/preloader/soon.png";
                     })
             }
         } else {
