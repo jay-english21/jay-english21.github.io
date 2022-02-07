@@ -32,12 +32,12 @@ var mainApp = {};
                             });
                         } else {
                             window.alert(loadedData.message);
-                            window.location.replace('/');
+                            window.location.replace('/login');
                         }
                     })
             }
         } else {
-            window.location.replace("/");
+            window.location.replace("/login");
         }
     })
 })()
