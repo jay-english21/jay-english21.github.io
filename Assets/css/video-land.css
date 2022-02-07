@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Glacial Indifference';
-    src: url("/HSC-Full-Course/assets/fonts/basiersquare-regular-webfont.woff") format("woff2"), url("/HSC-Full-Course/assets/fonts/basiersquare-regular-webfont.woff") format("woff");
+    src: url("https://aparsclassroom.com/HSC-Full-Course/assets/fonts/basiersquare-regular-webfont.woff") format("woff2"), url("https://aparsclassroom.com/HSC-Full-Course/assets/fonts/basiersquare-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-display: swap;
     font-style: normal;
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: 'Glacial Indifference bold';
-    src: url("/HSC-Full-Course/assets/fonts/GlacialIndifference-Bold.woff") format("woff2"), url("/HSC-Full-Course/assets/fonts/GlacialIndifference-Bold.woff") format("woff");
+    src: url("https://aparsclassroom.com/HSC-Full-Course/assets/fonts/GlacialIndifference-Bold.woff") format("woff2"), url("https://aparsclassroom.com/HSC-Full-Course/assets/fonts/GlacialIndifference-Bold.woff") format("woff");
     font-weight: bold;
     font-display: swap;
     font-style: normal;
@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: 'title-font';
-    src: url("/HSC-Full-Course/assets/fonts/cerebri-sans.woff") format("truetype");
+    src: url("https://aparsclassroom.com/HSC-Full-Course/assets/fonts/cerebri-sans.woff") format("truetype");
 }
 
 
@@ -787,11 +787,6 @@ header .nav-col .navbar-nav li {
 
 .contri-bghy a:hover {
     text-decoration: none;
-}
-
-@font-face {
-    font-family: Kalpurush;
-    src: url('/Ambassador/assets/fonts/kalpurush.ttf');
 }
 
 .contri-bghy a .image {
