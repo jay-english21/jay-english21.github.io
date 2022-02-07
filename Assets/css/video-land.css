@@ -167,7 +167,8 @@ ul {
     src: url(https://aparsclassroom.com/Ambassador/assets/fonts/ASG_TARIQ.TTF);
 }
 
-.bangla {
+.bangla,
+.Video_Description {
     font-family: Kalpurush;
 }
 
