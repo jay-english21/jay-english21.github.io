@@ -15,6 +15,7 @@ var mainApp = {};
                     })
                     .then((loadedData) => {
                         if (loadedData.code === 200) {
+                            document.getElementById('pre').style.display = "none";
                             loadedData.data.forEach((element, idx) => {
                                 let classess = `
                               <div class="col-md-4 col-sm-6">
@@ -31,8 +32,7 @@ var mainApp = {};
                                 document.getElementById('cls').innerHTML += classess;
                             });
                         } else {
-                            window.alert(loadedData.message);
-                            window.location.replace('/login');
+                            document.getElementById('pre').src = "https://thumbs.dreamstime.com/b/available-soon-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-82695823.jpg";
                         }
                     })
             }
