@@ -33,7 +33,7 @@ var mainApp = {};
                             }
                         } else {
                             window.alert(loadedData.message);
-                            window.location.replace('/login');
+                            window.location.replace('/');
                         }
                     })
             }
