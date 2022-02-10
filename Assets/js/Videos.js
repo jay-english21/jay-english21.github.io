@@ -9,6 +9,9 @@ var mainApp = {};
                 return location.replace("/");
             } else {
                 uid = user.uid;
+                if (user.displayName != null) {
+                    document.getElementById('displayName').innerText = user.displayName;
+                }
                 fetch('https://script.google.com/macros/s/AKfycbw7GrSmx8mPud_35s2ErOjOwgekOR7aGTNcKtC-2t7prhAUdWoLvP7DyX6vIlSvy4ghug/exec?q=all')
                     .then((res) => {
                         return res.json();
