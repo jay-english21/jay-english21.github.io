@@ -29,7 +29,6 @@ var mainApp = {};
                                 document.getElementById('lc').style.display = 'none';
                             } else {
                                 document.getElementById('previewP').setAttribute("src", "https://drive.google.com/file/d/" + data.lecture + "/preview");
-                                document.getElementById('down').setAttribute('onclick', "window.open('https://drive.google.com/u/0/uc?id=" + loadedData.lecture + "&export=download')");
                             }
                         } else {
                             window.alert(loadedData.message);
