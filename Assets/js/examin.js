@@ -42,10 +42,12 @@ var mainApp = {};
                             email = user.email;
                             document.getElementById('startExam').addEventListener('click', () => {
                                 swal({
-                                        title: "Do you know?",
+                                        title: "Exam Rules",
                                         icon: "info",
-                                        text: "If you cheat you are is the only person who is losing...",
-                                        button: "Start Exam"
+                                        text: `Total Mark: 10\n
+                                        Time: 5 Minutes\n
+                                        Negative Marking for Each Wrong Answer: 0.25`,
+                                        button: "Okay, Start Exam"
                                     })
                                     .then(() => {
                                         sessionStorage.setItem("stat", "OK");
