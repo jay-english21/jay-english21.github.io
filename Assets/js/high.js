@@ -38,11 +38,17 @@ var mainApp = {};
                             paginationSizeSelector: [10, 20, 30, 40, 50],
                             layout: "fitDataStretch",
                             data: loadedData,
-                            autoColumns: true,
+                            columns: [
+                                { title: "Position", formatter: "rownum", headerSort: false },
+                                { title: "Name", field: "username", headerSort: false },
+                                { title: "Score", field: "score", headerSort: false },
+                                { title: "Duration", field: "duration", headerSort: false },
+                                { title: "Time", field: "timestamp", headerSort: false }
+                            ],
                             initialSort: [{
                                 column: "score",
                                 dir: "desc"
-                            }]
+                            }],
                         });
                         document.getElementById("download-xlsx").addEventListener("click", function() {
                             table.download("xlsx", "jay-english21_MCQ-Exam.xlsx", {
