@@ -54,7 +54,7 @@ function toggleSignIn(e) {
                 document.getElementById("forgotPass").style.display = "inline-block";
             } else {
                 alert(error.message);
-                window.location.replace("https://aparsclassroom.com/shop/BioDictionary?aff-AAA");
+                window.location.replace("https://aparsclassroom.com/shop/admission/HSC_21/jay-english21");
             }
         });
 }
@@ -70,7 +70,7 @@ function sendPasswordReset() {
             alert("Please Check your Email Address 🤔 \n\nIt is in wrong format 🙃");
         } else if (errorCode == 'auth/user-not-found') {
             alert('You haven\'t purchased our premium subscription yet 😶');
-            window.location.replace("https://aparsclassroom.com/shop/BioDictionary?aff-AAA");
+            window.location.replace("https://aparsclassroom.com/shop/admission/HSC_21/jay-english21");
         }
     });
 }
